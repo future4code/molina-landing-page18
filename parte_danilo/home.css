@@ -1,0 +1,130 @@
+/*
+Nome:  genesis Ferreira / Danilo
+DEV:JR JR
+labenumero: 2136262
+Descriçao: site banco F4 bank
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** da linha 0 /0
+**** BODY
+**** da linha 0 / 0
+**** HEADER
+**** da linha 0 / 0
+**** MAIN
+**** da linha 0 / 0
+**** FOOTER
+**** da linha 0 / 0
+****@MEDIA
+**** da linha 0 / 0
+
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* ESTILOS GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* cores 
+#FF914D
+#FFBD59
+*/
+
+/*BODY*/
+/*HEADER*/
+/*MAIN*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section h1 {
+    font-size: 100;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    color: #FF914D;
+}
+
+section p{
+    font-size: calc(4rem/1.33);
+    padding-left: 4vw;
+    padding-top: 4vh;
+    color:white;
+    width: 30%;
+}
+
+#section1{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    /* background-color: #FFBD59; */
+    background-image: url('./media/img-section1.png');
+    /* url("https://nubank.com.br/_next/static/images/921f6141a19461ac6f4a33e05dd888f1-woman-holding-card-smiling-2@desktop1024.png.webp"); */
+    background-size: cover;
+    background-position: center;
+    text-align: end;
+}
+
+#section1 h1 {
+    font-size: 8rem;
+    padding-right: 4vw;
+    padding-top: 4vh;
+    color: #FF914D;
+    
+}
+
+#section1 p{
+    display: flex;
+    font-size: 4rem;
+    margin-right: 4vw;
+    padding-top: 4vh;
+    color:white;
+    width: 30%;
+}
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    gap: 0vw;
+    justify-content:space-around;
+    margin:2vh 0;
+}
+
+#section2 div{
+    width: 46vw;
+    background-color:#FFBD59;
+    border-radius: 2%;
+}
+
+#section2 div h1{
+    font-size: 4rem;
+    color: white;
+}
+
+#section3{
+    background-color: #FF914D;
+    display: flex;
+    align-content: center ;
+}
+
+#section3 h1{
+    font-size: 4rem;
+    color: white;   
+}
+
+
+
+/*FOOTER*/
+/*@MEDIA*/
