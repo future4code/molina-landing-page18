@@ -1,0 +1,70 @@
+/*
+Nomes:  genesis Ferreira / Danilo
+DEVS: JR /JR
+labenumero: 2136262
+Descriçao: site banco F4 bank
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** da linha 0 /0
+**** BODY
+**** da linha 0 / 0
+**** HEADER
+**** da linha 0 / 0
+**** MAIN
+**** da linha 0 / 0
+**** FOOTER
+**** da linha 0 / 0
+****@MEDIA
+**** da linha 0 / 0
+
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* ESTILOS GERAIS */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: blue 
+}
+footer .container{
+    padding: 20px;
+}
+footer nav ul li a{
+    color: rgb(77, 19, 153);
+}
+
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
+
+footer nav .redes-sociais{
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
+}
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
+}
+
