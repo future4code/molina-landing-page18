@@ -43,6 +43,7 @@ font-family: 'Roboto', sans-serif;
 body{
     height: 100vh;
     font-size: 1em;
+    box-sizing: border-box;
 }
 
 /*HEADER*/
@@ -52,9 +53,6 @@ main {
     flex-direction: column;
     min-height: 100vh;
 }
-
-
-
 
 #section1{
     display:flex;
