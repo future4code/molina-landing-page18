@@ -37,9 +37,47 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 
+/*HEADER*/
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    background-color: #FFBD59 ;
+}
+
+.logo img {
+    display: flex;
+    max-width: 130px;
+    border-radius: 100%;
+    border: ridge;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 19px  rgb(43, 10, 121);
+}
+
+.menu a {
+    display: flex;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;    
+    margin-top: 50px;
+    padding-right: 50px;
+    
+
+}
+
+
 /* FOOTER */
+
 footer{
-    background-color: blue 
+    background-color:  #FF914D  ;
 }
 footer .container{
     padding: 20px;
