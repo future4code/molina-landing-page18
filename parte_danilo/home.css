@@ -40,57 +40,55 @@ font-family: 'Roboto', sans-serif;
 */
 
 /*BODY*/
+body{
+    height: 100vh;
+    font-size: 1em;
+}
+
 /*HEADER*/
 /*MAIN*/
 main {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-section h1 {
-    font-size: 100;
-    padding-left: 4vw;
-    padding-top: 4vh;
-    color: #FF914D;
-}
 
-section p{
-    font-size: calc(4rem/1.33);
-    padding-left: 4vw;
-    padding-top: 4vh;
-    color:white;
-    width: 30%;
-}
+
 
 #section1{
     display:flex;
     justify-content: right;
     align-items: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
     min-height: 100vh;
-    /* background-color: #FFBD59; */
-    background-image: url('./media/img-section1.png');
-    /* url("https://nubank.com.br/_next/static/images/921f6141a19461ac6f4a33e05dd888f1-woman-holding-card-smiling-2@desktop1024.png.webp"); */
+    background-image: url('./img/section1.jpg');
     background-size: cover;
     background-position: center;
+}
+
+#section1 div{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+
+}
+
+#section1 div p{
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing:  -2px;
     text-align: end;
+    grid-column: 6/10;
+    white-space:pre-line;
+    color:#FF914D;
+    text-shadow: 1px 1px 1px #FF914D;
 }
 
-#section1 h1 {
-    font-size: 8rem;
-    padding-right: 4vw;
-    padding-top: 4vh;
-    color: #FF914D;
-    
-}
-
-#section1 p{
-    display: flex;
-    font-size: 4rem;
-    margin-right: 4vw;
-    padding-top: 4vh;
-    color:white;
-    width: 30%;
+#section1 div p span{
+    color: white;
+    background-color:#FF914D;
+    text-shadow: 1px 1px 1px white;
 }
 
 #section2{
@@ -102,29 +100,130 @@ section p{
     margin:2vh 0;
 }
 
-#section2 div{
+#section2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
     width: 46vw;
-    background-color:#FFBD59;
     border-radius: 2%;
+    background-image: url('./img/section2-1.jpg');
+    background-size: cover;
+    background-position: 29.5% 50%;
+    border: 2px solid #FFBD59;
+ }
+
+#section2-1-texto{
+    font-size: 2rem;
+    padding: 1vw 0 0 2vw;
+    color: #FF914D;
 }
 
-#section2 div h1{
-    font-size: 4rem;
+#section2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46vw;
+    border-radius: 2%;
+    background-image: url('./img/section2-2.jpg');
+    background-size: cover;
+    background-position: 29.5% 50%;
+}
+
+#section2-2-texto{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0 2vw 0 0;
+    text-align: end;
     color: white;
+    background-color: #ff914dab ;
+}
+
+#section2-2-texto span{
+    font-weight: 900;
+    font-variant: small-caps slashed-zero;
+    letter-spacing: 0.5vh;
+
+}
+
+#section2-2-texto h1:last-child{
+    font-size: 8rem;
+    color: white;
+    background-color: #FF914D;
+
 }
 
 #section3{
-    background-color: #FF914D;
+    box-sizing: border-box;
+    min-height:100vh;
+    background-image: url('./img/section3.jpg');
+    background-size: cover;
+    background-position: 29.5% 50%;
+}
+
+#section3-texto{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,25vh);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#section3-texto h1{
+    grid-column: 4/6;
+    grid-row: 1/3;
     display: flex;
-    align-content: center ;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900; 
+    text-align: center;
+    color: #FF914D;  
 }
 
-#section3 h1{
+#section3-texto p{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #FF914D;
+}
+
+#section4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url('./img/section4.jpg');
+    background-size: cover;
+}
+
+#section4 div {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#section4 h1{
+    margin-top: 3vh;
     font-size: 4rem;
-    color: white;   
+    font-weight: 300;
+    text-align: center;
+    color: #FF914D;
 }
 
-
+#section4 div img{
+    margin: auto 0;
+    width: 50%;
+    border-radius: 25%;
+}
 
 /*FOOTER*/
 /*@MEDIA*/
