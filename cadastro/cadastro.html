@@ -23,9 +23,10 @@
                 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F28b44fa9-b34c-4321-a2c2-7e425f680408%2Ff4bank.png?table=block&id=a7a844f0-a9fe-4a92-8b97-08e82f86309a&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=1000&userId=&cache=v2" alt="">
             
             </div>        
+            
             <div class="menu">
                 <a href="../index.html">HOME</a>
-                <a href="../cadastro/cadastro.html">CADASTRO</a>
+                <a href="./cadastro.html">CADASTRO</a>
                 <a href="../contato/contato.html">CONTATO</a>                
             </div>
     
@@ -81,25 +82,37 @@
                     <label class="sobrenomelabel"> Identidade </label>
                     
                 </div>
-                <h2 class="nome">Email</h2>
-                <input class="email" type="text" name="email">  
-    
-                <h2 class="nome">Telefone com DDD</h2>
-                <input class="codigo" type="text" name="codigo_area">
-                <label class="codigo_area">DDD</label>
-                <input class="number" type="text" name="phone">
-                <label class="numero-telefone">Telefone</label>
-    
-                <h2 class="nome">Foto de Perfil</h2>
-                <input class="codigo_area" type="file" accept="" />               
-                 
-                <h2 class="nome">Cursos</h2>
-                <select class="opcoes" name="assunto">
-                    <option disabled="disabled" selected="selected">-- Selecione Uma Opção De Conta</option>
-                    <option>Conta Corrente</option>
-                    <option>Conta Poupança</option>
+                <div>
+                    <h2 class="nome">Email</h2>
+                    <input class="email" type="text" name="email"> 
+                </div>
+                
+                
+                <div>
+                    <h2 class="nome">Telefone com DDD</h2>
+                    <input class="codigo" type="text" name="codigo_area">
+                    <label class="codigo_area">DDD</label>
+                    <input class="number" type="text" name="phone">
+                    <label class="numero-telefone">Telefone</label>
+
+                </div>
+                
+                <div>
                     
-                </select>
+                    <h2 class="nome">Foto de Perfil</h2>
+                    <input class="codigo_area" type="file" accept="" />               
+
+                </div>
+    
+                 <div>
+                     <h2 class="nome">Tipo Conta</h2>
+                         <select class="opcoes" name="assunto">
+                             <option disabled="disabled" selected="selected">-- Selecione Uma Opção De Conta</option>
+                             <option>Conta Corrente</option>
+                             <option>Conta Poupança</option>
+                             
+                         </select>
+                 </div>
     
     
                 <button type="submit">Enviar </button>
@@ -115,7 +128,7 @@
        <!-------------------------------->
         
         <footer>
-            <div class="container">
+            <div class="container-footer">
 
                 <nav>
                     <ul class="info-contato">

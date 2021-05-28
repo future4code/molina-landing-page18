@@ -33,11 +33,14 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     padding: 0;    
     list-style: none;
     text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 
 body{
 	font-family: 'Roboto', sans-serif;
+	height: 100vh;
 }
 
 
@@ -353,6 +356,7 @@ input[type="file"] {
 }
 
 
+
 /* FOOTER */
 
 footer{
@@ -376,12 +380,85 @@ footer nav .redes-sociais{
     text-align: center;
 }
 footer nav .redes-sociais li{
-    margin: 15px 28px;
+	margin: 15px 28px;
     text-align: center;
     display: inline-block;
 }
 
 footer nav .redes-sociais li a img{
-    width: 40px;
+	width: 40px;
 }
 
+@media screen and (min-device-width : 374px) and (max-device-width : 667px) {
+	    body{
+			display: flex;
+			margin:0;
+			padding:0;				
+			flex-direction: column;				
+		}
+	
+		main{
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			
+		}
+		.registroformulario{
+			max-width:100vw;
+
+		}
+
+		.conteudo{
+			max-width: 100vw;
+		}
+
+		form{
+			max-width:50vw;
+			margin:0;
+			padding:0;
+		}
+
+		div label{
+			display:flex;
+			flex-direction: column;
+			left:0;
+			margin:0;
+			padding:0;
+		}
+
+	
+		div input{			
+			max-width:50vw;
+			left:0;
+			margin:0;
+			padding:0;
+		}
+
+		table div h2{
+			
+			left:0;
+			margin:0;
+			padding:0;
+		}
+
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: stretch;	
+			
+		}
+		
+		footer{
+			width: 375px;
+		   
+		}
+		
+	@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+	
+	}
+	
+	
+	@media screen and (min-device-width : 1280px) {
+	
+	}
