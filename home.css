@@ -159,13 +159,23 @@ main {
 
 #section2-2-texto{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: end;
-    align-items: center;
+    align-items: flex-end;
     font-size: 2rem;
     padding: 0 2vw 0 0;
-    text-align: end;
+    text-align: end;  
     color: white;
     background-color: #ff914dab ;
+}
+
+/* #section2-2-textp h1{
+    text-align: right;
+    align-content: flex-end;
+} */
+
+#section2-2-texto h1:nth-of-type(1){
+    order:2;
 }
 
 #section2-2-texto span{
@@ -176,8 +186,10 @@ main {
 }
 
 #section2-2-texto h1:last-child{
+    order:1;
     font-size: 8rem;
     color: white;
+    margin-left: 1vw;
     background-color: #FF914D;
 
 }
@@ -285,16 +297,93 @@ footer nav .redes-sociais li a img{
     width: 40px;
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* celulares */
-    }
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-    /* tablets */
-    }
-    @media screen and (min-device-width : 1200px) {
-    /* computadores */
+footer nav{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
+  /****************************** */
+ /*  R E S P O N S I V I D A D E */
+/* **************************** */
+
+@media screen and (min-device-width:350px) and (max-device-width:740px) {
+
+    body,header,main {
+        max-width:100vw;
     }
     
+    .cabeçalho{
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu{
+        display:flex;
+        flex-direction: column;
+    }
 
+    #section1 div{
+        display:flex;
+        flex-direction: row-reverse;
+        min-width: 100vw;
+        justify-content: end;
+        align-items: flex-end;
+        margin-right: 10vw;
+        box-sizing: border-box;
+       
+    }
 
+    #section1 div p {
+        width: 50vw;
+        text-align: left;
+        margin-right: 8vw;
+        margin-bottom:10vh;
+    }
 
+    #section2{
+        display:flex;
+        flex-direction: column;
+        min-width: 100vw;
+    }
+
+    #section2-1{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #section2-2{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #section3{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #section3-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+    
+    #section3-texto h1{
+        margin-top: 5vh;
+    }
+    
+    #section4{
+       background-position: 50% 70%;
+    }
+
+    #section4 h1{
+        font-size: 2.5rem;
+        margin-right: 2vw;
+    }
+
+    #section img{
+        width:80%;
+    }
+}
