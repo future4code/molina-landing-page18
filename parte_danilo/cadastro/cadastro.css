@@ -1,0 +1,658 @@
+/*
+Nomes:  genesis Ferreira / Danilo
+DEVS: JR /JR
+labenumero: 2136262
+Descriçao: site banco F4 bank
+Version: 1.0
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** da linha 0 /0
+**** BODY
+**** da linha 0 / 0
+**** HEADER
+**** da linha 0 / 0
+**** MAIN
+**** da linha 0 / 0
+**** FOOTER
+**** da linha 0 / 0
+****@MEDIA
+**** da linha 0 / 0
+font-family: 'Roboto', sans-serif;
+*/
+
+/* ESTILOS GERAIS */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;    
+    list-style: none;
+    text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	/* height: 100vh; */
+}
+
+/*header*/
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    background-color: #FFBD59 ;
+}
+
+.logo img {
+    display: flex;
+    max-width: 130px;
+    border-radius: 100%;
+    border: ridge;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	box-shadow: 3px 3px 19px  rgb(43, 10, 121);
+}
+
+.menu a {
+    display: flex;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;    
+    margin-top: 50px;
+    padding-right: 50px;
+    
+
+}
+
+
+/*MAIN*/
+
+body
+{
+	font-family: sans-serif;
+    background-image: url(../img/qual-melhor-banco-digital-melhores-bancos-digitais.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.registroformulario
+{
+	width: 800px;
+	background-color: #FF914D;
+	margin: auto;
+	color: #ffffff;
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: inset 0 0 1em gold, 0 0 1em red;
+    margin-top: 50px;    
+    margin-bottom: 20px;    
+}
+
+
+.conteudo
+{
+	background-color: rgba(216, 177, 126, 0.6);
+	width: 800px;
+	margin: auto;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+	padding: 10px;
+    margin-bottom: 30px;
+}
+
+form div{
+    column-gap: 0.5vw;
+}
+
+form div h2{
+    color:white;
+}
+
+form div label{
+    color:white;
+}
+
+
+form div input{
+    height:3vh;
+}
+
+#nome{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+#nome h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+
+#nome input:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#nome input:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#nome label:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#nome label:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#end1{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#end1 h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#end1 input:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#end1 input:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#end1 label:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#end1 label:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#end2{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#end2 h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#end2 input:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#end2 input:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#end2 label:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#end2 label:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#docs{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#docs h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#docs input:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#docs input:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#docs label:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#docs label:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#email{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    margin-bottom: 2vh;
+}
+
+#email h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#email input:nth-of-type(1){
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+
+#telefone{
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#telefone h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+#telefone input:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#telefone input:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#telefone label:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#telefone label:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+form div:nth-of-type(7){
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+}
+
+form div:nth-of-type(7) h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+form div:nth-of-type(7) input:nth-of-type(1){
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+form div:nth-of-type(8){
+    display: grid;
+    grid-template-columns: 15vw 1fr 1fr;
+    margin-bottom: 2vh;
+}
+
+form div:nth-of-type(8) h2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+form div:nth-of-type(8) select{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+
+form button{
+    width: 20%;
+    background-color: #ca7b3a;
+	display:block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #266473;
+	padding: 14px 0;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+    align-self: center;
+}
+
+button:hover
+{
+	background-color: red;
+}
+
+/* FOOTER */
+
+footer{
+    background-color:  #FF914D;
+}
+
+.container-footer{
+    padding: 20px;
+}
+footer nav ul li a{
+    color: rgb(77, 19, 153);
+}
+
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
+
+footer nav .redes-sociais{
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    padding: 50px 0 0;
+    text-align: center;
+}
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
+}
+
+
+footer nav{
+    text-align: center;
+	margin-top: 2vh;
+}
+
+
+
+  /****************************** */
+ /*  R E S P O N S I V I D A D E */
+/* **************************** */
+
+@media screen and (min-device-width:350px) and (max-device-width:740px) {
+
+    body,header,main {
+        max-width:100vw;
+        box-sizing: border-box;
+    }
+    
+    .cabeçalho{
+        display: flex;
+        align-items: center;
+        max-width: 100vw;
+    }
+    
+    .menu{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .registroformulario
+    {
+        max-width: 50vh;
+        background-color: #FF914D;
+        margin: auto;
+        color: #ffffff;
+        padding: 10px 0px 10px 0px;
+        margin-top: 50px;    
+        margin-bottom: 20px;  
+    }
+    
+    .conteudo,
+    .conteudo form div h2,
+    .conteudo form div,
+    .conteudo form div input,
+    .conteudo form div label,
+    .conteudo form div select,
+    .conteudo form div textarea{
+       all:initial;
+       color: rgb(0, 0, 0);
+    }
+    
+    body div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        min-height: 100vh;
+    }
+
+    .registroformulario{
+        max-width:98vw;
+    }
+    
+    form{
+        max-width: 100vw;
+        padding:5vh 0;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        gap: 3vh;
+        box-sizing: border-box;   
+        background-color: #ff914d7c;;         
+    }
+
+    form div{
+        margin: 5vh 0;
+    }
+    
+    #nome{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    
+    #nome h2{
+        display:none;
+    }
+    
+    #nome label:nth-of-type(1){
+        order:1;
+    }
+    
+    #nome input:nth-of-type(1){
+        order:2;
+    }
+    
+    #nome label:nth-of-type(2){
+        order:3;
+    }
+    
+    #nome input:nth-of-type(2){
+        order:4;
+    }
+    
+    #end1{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    
+    #end1 h2{
+        display:none;
+    }
+    
+    #end1 label:nth-of-type(1){
+        order:1;
+    }
+    
+    #end1 input:nth-of-type(1){
+        order:2;
+    }
+    
+    #end1 label:nth-of-type(2){
+        order:3;
+    }
+    
+    #end1 input:nth-of-type(2){
+        order:4;
+    }
+
+    #end2{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    
+    #end2 h2{
+        display:none;
+    }
+    
+    #end2 label:nth-of-type(1){
+        order:1;
+    }
+    
+    #end2 input:nth-of-type(1){
+        order:2;
+    }
+    
+    #end2 label:nth-of-type(2){
+        order:3;
+    }
+    
+    #end2 input:nth-of-type(2){
+        order:4;
+    }
+
+    #docs{
+
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    
+    #docs h2{
+        display:none;
+    }
+    
+    #docs label:nth-of-type(1){
+        order:1;
+    }
+    
+    #docs input:nth-of-type(1){
+        order:2;
+    }
+    
+    #docs label:nth-of-type(2){
+        order:3;
+    }
+    
+    #docs input:nth-of-type(2){
+        order:4;
+    }
+
+    #email{
+        display:flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    
+    
+    #telefone{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #telefone h2{
+        display:none;
+    }
+    
+    #telefone label:nth-of-type(1){
+        display:none;
+    }
+    
+    #telefone input:nth-of-type(1){
+        display:none;
+    }
+    
+    .conteudo{
+        margin:0;
+        padding:0;
+        height: 50vh;
+    }
+    
+    .conteudo form div input{
+        display: block;
+        line-height: 50px;
+        width:98vw;
+        height:8vh;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    
+    .conteudo form div select {
+        display:block;
+        background-color: white;
+        width:98vw;
+        height:8vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    .conteudo form div textarea{
+        display: block;
+        background-color:white;
+        width:100vw;
+        height:8vh;
+        box-sizing: border-box;
+    }
+
+      
+    .conteudo form div label,
+    .conteudo form div h2{
+        display: block;
+        width:100vw;
+        box-sizing: border-box;
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 1vh;
+        font-size: 1.5rem;
+        margin-left: 1vw;
+    }
+
+    button{
+        display: flex;
+        max-width:20vw;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+}
