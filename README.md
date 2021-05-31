@@ -10,20 +10,31 @@ Navegação com layout para desktop e responsivo.
 Envio de formulários.
 
 ###### Link do Surge:
-[Link do Site | F4Bank] (infamous-paper.surge.sh)
+[Link do Site | F4Bank](infamous-paper.surge.sh)
 infamous-paper.surge.sh
 
 ##### Screenshots:
 
-###### home
-![Home | desktop](https://lh4.googleusercontent.com/BKqI9iLNITObDwtZstVWwuMmcjxAqbLLxEUjlbEr06V1QO6dvBn4pyg9VMIJzpePPcKbwM8PcoGffIdTU_AN=w692-h638)
+###### desktop
 
-![Cadastro | desktop](https://lh4.googleusercontent.com/Cyj2g63kfEkMGXN1ZAzuGEx0jA_1krU4ej_yudEORKV0fM4dJYdPdcMAm7cgw99ye9gyl8mp_jntg_TGl0PR=w692-h638)
+Home
 
-![Contato | desktop](https://lh6.googleusercontent.com/w80XZeVVwrT_R1nwCLx5aDE1_ARUN6CA6ALfGu58CHSpH4eh7q3qlrEij7CWPFIyCNHGuZmaP_splgDCDDEp=w692-h638)
+<img scr="https://user-images.githubusercontent.com/83218983/120224185-5458aa80-c219-11eb-8420-c156a9f931ef.png" alt="Home" width="300"/>
+
+Cadastro<br>
+<img src="https://user-images.githubusercontent.com/83218983/120222831-f4f99b00-c216-11eb-866f-c1fb946bc43d.png" alt="Cadastro" width="300"/>
+
+Contato<br>
+<img src="https://user-images.githubusercontent.com/83218983/120222938-270afd00-c217-11eb-886e-983876e3a962.png" alt="Contato" width="300"/>
+
+
 
 ###### responsivo
-![Home | responsivo](https://lh3.googleusercontent.com/jlHuQ3UM4xiALN93YpEL_gFimWc2MA7Rp_2NT0Eg5p_iYwT_avghG5vr0OUnYFcQBptmN4NOgQI0xemfwLwf=w692-h638)
+Home
+<img scr="https://user-images.githubusercontent.com/83218983/120223275-bdd7b980-c217-11eb-93d8-ec29396816f6.png" alt="Home" width="300"/>
 
-![Cadastro | responsivo](https://lh3.googleusercontent.com/kx8GFjoRFWacYwz7sQoSyAB9ODoKZPkQPqLPeIC01NL2_df95Kp-LEJpIleLGr2UZPv1McXPJj5InfSxoIWf=w692-h638)
-![Contato | responsivo](https://lh4.googleusercontent.com/D0Nli2pt6WyedLz6pfcoLDY1Q1gVL9nEla0QgdslztxcNZPIQILud8wG2Cwl2qiTpVQmY5NWDVQ8M8f2hAEW=w692-h638)
+Cadastro
+<img scr="https://user-images.githubusercontent.com/83218983/120223301-c8924e80-c217-11eb-9e20-7155823b83a7.png" alt="Cadastro" width="300"/>
+
+Contato
+<img scr="https://user-images.githubusercontent.com/83218983/120223334-d647d400-c217-11eb-8873-1128cb18d4f8.png)" alt="Cadastro" width="300"/>
