@@ -15,14 +15,14 @@ infamous-paper.surge.sh
 
 ##### Screenshots:
 
-###### desktop | home
-![Home | desktop](https://lh4.googleusercontent.com/idd783xT9Y3gfQ_QjoLFiJfrNCBD6vhgQ4sgP54uuTD9WwYJBD1uJIojNSapjD6_QS4iAeAv1-gTWgZhCzDx=w692-h638)
+###### home
+![Home | desktop](https://lh4.googleusercontent.com/BKqI9iLNITObDwtZstVWwuMmcjxAqbLLxEUjlbEr06V1QO6dvBn4pyg9VMIJzpePPcKbwM8PcoGffIdTU_AN=w692-h638)
 
-![Cadastro | desktop](https://lh3.googleusercontent.com/b6NynoBgGHy1K9Vbz05MSs3RlMNJ6fKWUJw70xts4XJ9VPuNwx6nEcL_JZavAfS-a4pUgsAtY6zjAcULaME0=w692-h638)
+![Cadastro | desktop](https://lh4.googleusercontent.com/Cyj2g63kfEkMGXN1ZAzuGEx0jA_1krU4ej_yudEORKV0fM4dJYdPdcMAm7cgw99ye9gyl8mp_jntg_TGl0PR=w692-h638)
 
 ![Contato | desktop](https://lh6.googleusercontent.com/w80XZeVVwrT_R1nwCLx5aDE1_ARUN6CA6ALfGu58CHSpH4eh7q3qlrEij7CWPFIyCNHGuZmaP_splgDCDDEp=w692-h638)
 
-###### desktop | responsivo
+###### responsivo
 ![Home | responsivo](https://lh3.googleusercontent.com/jlHuQ3UM4xiALN93YpEL_gFimWc2MA7Rp_2NT0Eg5p_iYwT_avghG5vr0OUnYFcQBptmN4NOgQI0xemfwLwf=w692-h638)
 
 ![Cadastro | responsivo](https://lh3.googleusercontent.com/kx8GFjoRFWacYwz7sQoSyAB9ODoKZPkQPqLPeIC01NL2_df95Kp-LEJpIleLGr2UZPv1McXPJj5InfSxoIWf=w692-h638)
